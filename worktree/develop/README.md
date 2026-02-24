@@ -1,14 +1,14 @@
 `폴더 구조`
 
 ```
-📁 develop/                   # 로컬 최상위 폴더(~/develop)
-    ├── .gitconfig             # Git 전역 설정
-    ├── .gitignore_global      # 모든 프로젝트에 적용될 Ignore 규칙
-    └── 📁 project/           
-        ├── .env.shared        # 전역 .env 파일
-        ├── 📁 .bare/          # Bare 폴더
-        ├── 📁 project/        # main 워크트리
-        └── 📁 feat-ex/        # 다른 브랜치 워크트리
+develop/                   # 로컬 최상위 폴더(~/develop)
+├── .gitconfig             # Git 전역 설정
+├── .gitignore_global      # 모든 프로젝트에 적용될 Ignore 규칙
+└── 📁 project/           
+    ├── .env.shared        # 전역 .env 파일
+    ├── 📁 .bare/          # Bare 폴더
+    ├── 📁 project/        # main 워크트리
+    └── 📁 feat-ex/        # 다른 브랜치 워크트리
 ```
 
 `새 bare 생성/연결`
