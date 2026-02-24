@@ -1,0 +1,24 @@
+# 사용자 정보 
+[user]
+    name = Name
+    email = name@gmail.com
+
+# 자주 쓰는 명령어를 짧게 줄여주는 단축키 설정
+[alias]
+    st = status
+    cm = commit -m
+    br = branch
+    co = checkout
+    df = diff
+    # 워크트리 관련 단축키
+    wl = worktree list
+    wa = worktree add
+    wr = worktree remove
+
+# 출력 화면에 색상 입혀 가독성 향상
+[color]
+    ui = auto
+
+# push할 때 현재 브랜치 이름을 자동으로 매칭
+[push]
+    default = current
