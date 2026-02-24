@@ -1,0 +1,18 @@
+# OS에서 생성하는 잡다한 파일들
+.DS_Store
+Thumbs.db
+
+# 빌드 결과물 및 라이브러리 (Java/Spring 기준)
+target/
+build/
+.gradle/
+bin/
+
+# 환경 변수 및 보안 파일
+.env
+*.local
+*.secret
+
+# IDE 설정 (IntelliJ 등)
+.idea/
+*.iml
